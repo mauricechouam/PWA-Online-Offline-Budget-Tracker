@@ -1,5 +1,5 @@
 let db;
-const request = indexedDB.open("heroku_1rh6ds4r", 1);
+const request = indexedDB.open("budget", 1);
 
 request.onupgradeneeded = function(event) {
   const db = event.target.result;
