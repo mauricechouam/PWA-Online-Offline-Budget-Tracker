@@ -19,6 +19,11 @@ mongoose.connect("mongodb://localhost/budget", {
   useNewUrlParser: true,
   useFindAndModify: false
 });
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://maurice:pass123@ds227565.mlab.com:27565/heroku_1rh6ds4r";
+mongoose.connect(MONGODB_URI,{  
+    useNewUrlParser:true,
+    useFindAndModify:false
+})
 
 // routes
 app.use(require("./routes/api.js"));
