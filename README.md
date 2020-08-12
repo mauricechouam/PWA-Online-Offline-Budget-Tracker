@@ -2,7 +2,7 @@
 # PWA Online-Offline-Budget-Tracker
 A web application that allows user to be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
 
-![GitHub](https://img.shields.io/github/repo-size/mauricechouam/Online-Offline-Budget-Trackers?style=plastic) ![GitHub](https://img.shields.io/github/last-commit/mauricechouam/Online-Offline-Budget-Trackers?style=plastic) ![GitHub](https://img.shields.io/github/languages/top/mauricechouam/Online-Offline-Budget-Trackers?style=plastic) ![GitHub](https://img.shields.io/github/license/mauricechouam/Online-Offline-Budget-Trackers?style=plastic) 
+![GitHub](https://img.shields.io/github/repo-size/mauricechouam/PWA-Online-Offline-Budget-Tracker?style=plastic) ![GitHub](https://img.shields.io/github/last-commit/mauricechouam/PWA-Online-Offline-Budget-Tracker?style=plastic) ![GitHub](https://img.shields.io/github/languages/top/mauricechouam/PWA-Online-Offline-Budget-Tracker?style=plastic) [![GitHub license](https://img.shields.io/badge/licence-BSD3.0-green)](https://github.com/mauricechouam/PWA-Online-Offline-Budget-Tracker)
 
 
 ## Table of Contents
@@ -45,6 +45,18 @@ THEN that will be shown on the page, and added to their transaction history when
 * MongoDB ( mLab)
 * Express 
 * Heroku (Deployment )
+
+## Screenshots
+
+### Online Image
+<img src="">
+<br>
+<br>
+
+### Offline Image
+<img src="">
+
+
 
 ## Useful resources
 * [NoSQL](https://en.wikipedia.org/wiki/NoSQL)
