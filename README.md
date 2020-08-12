@@ -1,56 +1,66 @@
  
 # PWA Online-Offline-Budget-Tracker
+A web application that allows user to be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
 
-![GitHub](https://img.shields.io/github/repo-size/MarcusTravis/Online-Offline-Budget-Tracker?style=plastic) ![GitHub](https://img.shields.io/github/last-commit/MarcusTravis/Online-Offline-Budget-Tracker?style=plastic) ![GitHub](https://img.shields.io/github/languages/top/MarcusTravis/Online-Offline-Budget-Tracker?style=plastic) ![GitHub](https://img.shields.io/github/license/MarcusTravis/Online-Offline-Budget-Tracker?style=plastic) ![GitHub](https://img.shields.io/github/followers/MarcusTravis?style=social)
+![GitHub](https://img.shields.io/github/repo-size/mauricechouam/Online-Offline-Budget-Trackers?style=plastic) ![GitHub](https://img.shields.io/github/last-commit/mauricechouam/Online-Offline-Budget-Trackers?style=plastic) ![GitHub](https://img.shields.io/github/languages/top/mauricechouam/Online-Offline-Budget-Trackers?style=plastic) ![GitHub](https://img.shields.io/github/license/mauricechouam/Online-Offline-Budget-Trackers?style=plastic) 
 
-Check out the App here!:https://desolate-scrubland-50344.herokuapp.com/
+
 ## Table of Contents
 
-* [Description](#description)
-* [Deployment](#deployment)
-* [Built With](#built-with)
-* [Contributing](#contributing)
+* [User Story](#User-Story)
+* [Business Context](#Business-Context)
+* [Acceptance Criteria](#Acceptance-Criteria)
+* [Technologies used to create app](#technologies-used)
+* [Screenshots](#screenshots)
+* [Useful resources](#Useful-resources)
 * [Authors](#authors)
-* [License](#license)
-* [Acknowledgements](#acknowledgements)
 
-## Description
 
-The user will be able to add expenses and deposits to their budget with or without a connection. A user will also be able to download the app since it is a progressive web app. When entering transactions offline, they should populate the total when brought back online. Offline functionality: 
+## User Story
+AS AN avid traveller
+I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
+SO THAT my account balance is accurate when I am traveling
 
-Enter deposits offline
-Enter expenses offline. 
+## Business Context
 
-When brought back online, the offline entries should be added to tracker.
+Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
 
-## Deployment
 
-https://desolate-scrubland-50344.herokuapp.com/
+## Acceptance Criteria
+GIVEN a user is on Budget App without an internet connection
+WHEN the user inputs a withdrawal or deposit
+THEN that will be shown on the page, and added to their transaction history when their connection is back online.
 
-## Built With
+## Technologie Used
 
+1. Frontend technologies
 * HTML
 * CSS
-* Bootstrap
-* JavaScript
-* Node.js
-* Express
-* MongoDB
-* Mongoose
+* Bootstrap 
+* Javascript
+* jQuery 
 
-## Contributing
+2. Backend technologies
+* Node.js 
+* MongoDB ( mLab)
+* Express 
+* Heroku (Deployment )
 
-UofA starter code (starter HTML and CSS code)
+## Useful resources
+* [NoSQL](https://en.wikipedia.org/wiki/NoSQL)
+* [MongoDB Website](https://www.mongodb.com/)
+* [Robo 3T Website](https://robomongo.org/download)
+* [MongoJS Documentation](https://www.npmjs.com/package/mongojs)
+* [Mongoose Documentation](http://mongoosejs.com/docs/guide.html)
+* [MongoDB for your Heroku NodeJS app](https://www.youtube.com/watch?v=GDqtv1eGGpA)
+
+
 
 ## Authors
+* Application Built from Scratch by 
+   [mauricechouam](https://github.com/mauricechouam)
+  <img src="https://github.com/mauricechouam.png" alt="GitHub Profile Pic" width="150" height="150">
 
-**Marcus Travis**
 
-## License
 
-MIT
 
-## Acknowledgments
-
-UofA Full Stack Code Bootcamp!
-* Hat tip to anyone whose code was used!
