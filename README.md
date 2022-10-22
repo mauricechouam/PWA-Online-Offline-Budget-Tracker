@@ -13,7 +13,7 @@ A PWA (progressive web application) that allows user to be able to add expenses 
 * [Technologies used to create app](#technologies-used)
 * [Screenshots](#screenshots)
 * [Useful resources](#Useful-resources)
-* [Authors](#authors)
+* [Authors](#authors).
 
 
 ## User Story
