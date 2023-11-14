@@ -5,7 +5,7 @@ A PWA (progressive web application) that allows user to be able to add expenses 
 ![GitHub](https://img.shields.io/github/repo-size/mauricechouam/PWA-Online-Offline-Budget-Tracker?style=plastic) ![GitHub](https://img.shields.io/github/last-commit/mauricechouam/PWA-Online-Offline-Budget-Tracker?style=plastic) ![GitHub](https://img.shields.io/github/languages/top/mauricechouam/PWA-Online-Offline-Budget-Tracker?style=plastic) [![GitHub license](https://img.shields.io/badge/licence-BSD3.0-green)](https://github.com/mauricechouam/PWA-Online-Offline-Budget-Tracker)
 
 
-## Table of Contents
+## Table of Contents...
 
 * [User Story](#User-Story)
 * [Business Context](#Business-Context)
